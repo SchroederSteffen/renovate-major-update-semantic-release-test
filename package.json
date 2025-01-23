@@ -11,6 +11,7 @@
     "@nestjs/core": "^9.4.3"
   },
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "8.0.0",
     "dotenv-cli": "8.0.0",
     "semantic-release": "24.2.1"
   }
