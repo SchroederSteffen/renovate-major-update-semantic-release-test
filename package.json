@@ -1,14 +1,14 @@
 {
   "name": "renovate-major-update-semantic-release-test",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "semantic-release": "dotenv -- semantic-release",
     "semantic-release:dry": "dotenv -- semantic-release --dry-run"
   },
   "dependencies": {
-    "@nestjs/common": "^9.4.3",
-    "@nestjs/core": "^9.4.3"
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0"
   },
   "devDependencies": {
     "dotenv-cli": "8.0.0",
