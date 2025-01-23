@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "semantic-release": "dotenv -- semantic-release",
-    "semantic-release:dry": "dotenv -- semantic-release --dry-run"
+    "semantic-release:dry": "dotenv -- semantic-release --dry-run --no-ci"
   },
   "dependencies": {
     "@nestjs/common": "^9.4.3",
