@@ -1,0 +1,13 @@
+{
+  "name": "renovate-major-update-semantic-release-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "semantic-release": "dotenv -- semantic-release",
+    "semantic-release:dry": "dotenv -- semantic-release --dry-run"
+  },
+  "devDependencies": {
+    "dotenv-cli": "8.0.0",
+    "semantic-release": "24.2.1"
+  }
+}
