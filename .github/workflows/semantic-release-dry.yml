@@ -1,15 +1,16 @@
-name: semantic-release
+name: semantic-release-dry
 on:
+  pull_request:
+    branches: [main]
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read # for checkout
 
 jobs:
-  release:
-    name: Release
+  semantic-release-dry:
+    name: semantic-release-dry
     runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release
