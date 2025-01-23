@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", ":semanticCommits"],
+  "extends": ["config:best-practices", ":semanticCommits", "group:allNonMajor"],
   "separateMultipleMajor": true
 }
