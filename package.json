@@ -7,12 +7,12 @@
     "semantic-release:dry": "dotenv -- semantic-release --dry-run --no-ci"
   },
   "dependencies": {
-    "@nestjs/common": "11.0.5",
-    "@nestjs/core": "11.0.5"
+    "@nestjs/common": "11.0.10",
+    "@nestjs/core": "11.0.10"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "8.0.0",
     "dotenv-cli": "8.0.0",
-    "semantic-release": "24.2.1"
+    "semantic-release": "24.2.3"
   }
 }
