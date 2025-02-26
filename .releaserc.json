@@ -4,11 +4,24 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "conventionalcommits",
         "releaseRules": [
-          { "breaking": true, "release": "major" },
-          { "revert": true, "release": "patch" },
-          { "header": "*\\\\(major\\\\)*", "release": "major" }
+          {
+            "breaking": true,
+            "release": "major"
+          },
+          {
+            "revert": true,
+            "release": "patch"
+          },
+          {
+            "header": "*\\\\(major\\\\)*",
+            "release": "major"
+          },
+          {
+            "type": "build",
+            "scope": "deps",
+            "release": "patch"
+          }
         ]
       }
     ],
